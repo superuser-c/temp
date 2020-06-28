@@ -3,8 +3,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "json/json.hpp"
-
 #include "app.h"
 
 void on_framebuffer_size(GLFWwindow* w, int width, int height) {
@@ -18,7 +16,7 @@ int main() {
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	GLFWwindow *w = glfwCreateWindow(WINDOW_START_WIDTH, WINDOW_START_HEIGHT,
-		"Just That 1.0 alpha", NULL, NULL);
+		"quad test", NULL, NULL);
 	if (w == NULL) {
 		glfwTerminate();
 		std::cout << "ERROR: Window creation failed." << std::endl;

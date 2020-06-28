@@ -5,8 +5,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include "loader/loader.h"
-
 class Application {
 public:
 	Application(GLFWwindow *win);

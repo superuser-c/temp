@@ -9,11 +9,10 @@
 
 class Application {
 public:
-	Application(GLFWwindow *win, PackSet *pckst);
+	Application(GLFWwindow *win);
 	~Application();
 	void run();
 private:
 	GLFWwindow *w;
-	PackSet *ps;
 };
 #endif

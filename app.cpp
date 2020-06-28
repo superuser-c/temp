@@ -1,5 +1,8 @@
 #include "app.h"
 
+#include "GLWrap/Shader.h"
+#include "GLWrap/vaodat.h"
+
 #include <iostream>
 
 Application::Application(GLFWwindow *win) {

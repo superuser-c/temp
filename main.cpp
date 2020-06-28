@@ -5,7 +5,6 @@
 
 #include "json/json.hpp"
 
-#include "loader/loader.h"
 #include "app.h"
 
 void on_framebuffer_size(GLFWwindow* w, int width, int height) {
